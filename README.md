@@ -17,7 +17,7 @@ Very simple tmux plugin for controlling [spotify_player](https://github.com/aome
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```bash
-set -g @plugin 'tmux-plugins/tmux-sessionist'
+set -g @plugin 'fwastring/tmux-spotify-player'
 ```
 
 Hit prefix + I to fetch the plugin and source it. You can now use the plugin.
@@ -27,13 +27,13 @@ Hit prefix + I to fetch the plugin and source it. You can now use the plugin.
 Clone the repo:
 
 ```bash
-git clone https://github.com/tmux-plugins/tmux-sessionist ~/clone/path
+git clone https://github.com/fwastring/tmux-spotify-player ~/clone/path
 ```
 
 Add this line to the bottom of `.tmux.conf`:
 
 ```bash
-run-shell ~/clone/path/sessionist.tmux
+run-shell ~/clone/path/spotify.tmux
 ```
 
 Reload TMUX environment with `tmux source-file ~/.tmux.conf`. You can now use the plugin.
